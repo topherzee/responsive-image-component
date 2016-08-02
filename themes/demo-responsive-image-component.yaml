@@ -1,0 +1,26 @@
+
+imaging:
+  variations:
+    480-simple:
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 480
+    960-simple:
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 960
+    1366-simple:
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 1366
+    1600-simple:
+      class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+      width: 1600
+      
+jsFiles:
+  lazysizes:
+    addFingerPrint: true
+    link: /.resources/responsive-image-component/webresources/libs/lazysizes.min.js
+
+cssFiles:
+  responsiveImage:
+    addFingerPrint: true
+    media: all
+    link: /.resources/responsive-image-component/webresources/css/responsive-image.css

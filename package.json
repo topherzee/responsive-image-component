@@ -1,0 +1,23 @@
+{
+  "name": "responsive-image-component",
+  "version": "1.0.0",
+  "description": "Responsive Image - Component template for Magnolia CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "magnolia-light-module",
+    "magnolia-component",
+    "magnolia",
+    "component",
+    "cms",
+    "responsive",
+    "image"
+  ],
+  "author": "Christopher Zimmermann",
+  "license": "MIT",
+  "dependencies": {
+    "lazysizes": "2.0.0"
+  }
+}

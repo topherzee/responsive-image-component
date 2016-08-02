@@ -1,0 +1,30 @@
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.content-image-wrapper {
+    position: relative;
+}
+
+.image-credit {
+    background: black;
+    color: #ccc;
+    position: absolute;
+    right: 0px;
+    display: block;
+    padding: 2px 10px;
+    font-size: 0.8em;
+    bottom: 0px;
+}
+
+.image-caption {
+    background: black;
+    color: #ccc;
+    position: absolute;
+    left: 0px;
+    display: block;
+    padding: 2px 10px;
+    font-size: 0.8em;
+    bottom: 0px;
+}

@@ -1,0 +1,9 @@
+templateScript: /responsive-image-component/templates/components/image.ftl
+dialog: responsive-image-component:components/image
+renderType: freemarker
+
+# decorate or extend parameters when needed
+#parameters:
+#  divClass: my-component-div
+#  imageWrapperClass: my-wrapper
+#  imgClass: my-image foobarImage
