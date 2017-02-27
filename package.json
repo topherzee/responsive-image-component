@@ -1,27 +1,25 @@
 {
-  "name": "responsive-image-component",
-  "version": "1.0.0",
+  "name": "responsive-image-magnolia",
+  "version": "1.0.1",
   "description": "Responsive Image - Component template for Magnolia CMS",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node _dev/copy-lazysizes.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/topherzee/responsive-image-component.git"
+    "url": "git+https://github.com/topherzee/responsive-image-magnolia.git"
   },
   "keywords": [
     "magnolia-light-module",
     "magnolia-component",
-    "magnolia",
-    "component",
-    "cms",
     "responsive",
-    "image"
+    "image",
+    "lazysizes"
   ],
   "author": "Christopher Zimmermann",
   "license": "MIT",
   "dependencies": {
-    "lazysizes": "2.0.0"
+    "lazysizes": "^2.0.0"
   }
 }

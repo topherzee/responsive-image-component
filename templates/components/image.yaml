@@ -1,5 +1,5 @@
-templateScript: /responsive-image-component/templates/components/image.ftl
-dialog: responsive-image-component:components/image
+templateScript: /responsive-image-magnolia/templates/components/image.ftl
+dialog: responsive-image-magnolia:components/image
 renderType: freemarker
 
 # decorate or extend parameters when needed

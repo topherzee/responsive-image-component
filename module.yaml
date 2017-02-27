@@ -1,5 +1,5 @@
-version: 1.0.0
-displayName: Responsive Image Component
+version: 1.0.1
+displayName: Responsive Image
 dependencies:
-  mtk:
-    version: 0.11.0/*
+  core:
+    version: 5.4.7/*

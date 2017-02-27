@@ -12,8 +12,8 @@
 
 [#if content.image?has_content]
     [#assign rendition = damfn.getRendition(content.image, "original")]
-    [#include "/responsive-image-component/templates/macros/responsiveImage.ftl"]
-    [#include "/responsive-image-component/templates/macros/responsiveImageLazySizes.ftl"]
+    [#include "/responsive-image-magnolia/templates/macros/responsiveImage.ftl"]
+    [#include "/responsive-image-magnolia/templates/macros/responsiveImageLazySizes.ftl"]
 [/#if]
 
 

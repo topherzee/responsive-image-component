@@ -17,10 +17,10 @@ imaging:
 jsFiles:
   lazysizes:
     addFingerPrint: true
-    link: /.resources/responsive-image-component/webresources/libs/lazysizes.min.js
+    link: /.resources/responsive-image-magnolia/webresources/libs/lazysizes.min.js
 
 cssFiles:
   responsiveImage:
     addFingerPrint: true
     media: all
-    link: /.resources/responsive-image-component/webresources/css/responsive-image.css
+    link: /.resources/responsive-image-magnolia/webresources/css/responsive-image.css
